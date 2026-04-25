@@ -1,0 +1,27 @@
+---
+import '../styles/global.css';
+
+const phone = '5491154285092';
+const businessName = "Fierro's key's";
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{businessName}</title>
+	</head>
+	<body class="bg-white text-slate-800">
+		<main class="min-h-screen flex items-center justify-center p-6">
+			<section class="max-w-3xl text-center">
+				<h1 class="text-4xl md:text-6xl font-bold text-primary mb-4">{businessName}</h1>
+				<p class="text-lg mb-6">Urgencias 24h • Apertura de puertas • Duplicado de llaves</p>
+				<div class="flex items-center justify-center gap-4">
+					<a class="bg-primary text-white px-6 py-3 rounded shadow" href={`tel:+${phone}`}>Llamar ahora</a>
+					<a class="border border-primary text-primary px-6 py-3 rounded" href={`https://wa.me/${phone}`}>WhatsApp</a>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
