@@ -14,10 +14,10 @@
 
 export const brand = {
   // ── Site Identity ──────────────────────────────────────────────────────────
-  name: 'Small Business Starter',
-  tagline: 'Professional service you can trust.',
+  name: "Fierro's key's",
+  tagline: 'Cerrajería automotor — normal y urgencias.',
   description:
-    'A fast, mobile-first small-business website template built with Astro 6 and Tailwind v4. Fully customisable for any trade or service business.',
+    'Cerrajería automotor en Zona Oeste (Castelar y alrededores). Apertura de autos, llaves codificadas y programación. Urgencias hasta las 19:00.',
   url: 'https://example.com',
   locale: 'en_US',
 
@@ -33,23 +33,25 @@ export const brand = {
   // These values are written to CSS custom properties in theme.css.
   // Tailwind v4 @theme picks them up automatically.
   colors: {
-    // Dark theme palette
-    primary:      '#0ea5a4', // teal - used for buttons and highlights
-    primaryLight: '#34d8d3',
-    primaryFg:    '#021015',
+    // Dark metallic palette (matched to the hero logo)
+    // Neutrals: gunmetal / graphite
+    // Accents: copper / ember
+    primary:      '#c8733d', // copper highlight (buttons/links)
+    primaryLight: '#e2a37a',
+    primaryFg:    '#0b0f14',
 
-    accent:       '#06b6d4', // cyan accent for CTAs
-    accentFg:     '#021015',
+  accent:       '#8e9aa8', // steel accent (pills, secondary highlights)
+  accentFg:     '#0b0f14',
 
-    background:   '#0b1220', // main page background
-    surface:      '#0f1724', // cards and surfaces
-    border:       '#1f2a37',
+    background:   '#070a0e', // near-black with a hint of blue
+    surface:      '#0c1117', // graphite surface
+    border:       '#1a232e',
 
-    text:         '#e6eef6', // primary text on dark bg
-    textMuted:    '#a8b4bf',
+    text:         '#e7ecef', // cool off-white
+    textMuted:    '#aab3bd',
 
-    dark:         '#071018',
-    darkSurface:  '#0b1520',
+    dark:         '#05070a',
+    darkSurface:  '#0a0f14',
   },
 
   // ── Border radius ──────────────────────────────────────────────────────────
