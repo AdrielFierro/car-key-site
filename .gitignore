@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# template scratch folder (should never be committed as a submodule)
+.template_tmp/
